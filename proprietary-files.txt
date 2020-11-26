@@ -45,6 +45,9 @@ product/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
+# ANT+ - from LA.UM.9.1.r1-06700-SMxxx0.0
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so
+
 # Audio
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
