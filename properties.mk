@@ -85,9 +85,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.adm.buffering.ms=6
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.bluetooth.a2dp_offload.disabled=false \
-    ro.bluetooth.a2dp_offload.supported=true \
-    vendor.audio.feature.a2dp_offload.enable=true
+    persist.bluetooth.a2dp_offload.disabled=true \
+    ro.bluetooth.a2dp_offload.supported=false \
+    vendor.audio.feature.a2dp_offload.enable=false
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -95,9 +95,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.bt.a2dp.aac_whitelist=false \
-    persist.vendor.qcom.bluetooth.enable.splita2dp=true \
+    persist.vendor.qcom.bluetooth.enable.splita2dp=false \
     persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac \
-    ro.bluetooth.library_name=libbluetooth_qti.so \
     vendor.bluetooth.soc=cherokee
 
 # Camera
