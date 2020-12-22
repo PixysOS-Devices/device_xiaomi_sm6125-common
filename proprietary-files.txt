@@ -45,9 +45,6 @@ product/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
-# ANT+ - from LA.UM.9.1.r1-06700-SMxxx0.0
-vendor/lib64/hw/com.dsi.ant@1.0-impl.so
-
 # Audio - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
 vendor/lib64/libadiertac.so|cd2b3835ebca05c81abd31224657603cd959bf14
 vendor/lib64/libaudcal.so|fa8c3feff1eecb1b46b052248b2aaf39b517dd57
